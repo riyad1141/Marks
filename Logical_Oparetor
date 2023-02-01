@@ -1,0 +1,70 @@
+<?php
+// various types of logical oparetor
+/*
+==
+!=
+<
+>
+>=
+<=
+*/
+$number = 10;
+if($number % 2 == 0){
+    echo "$number is an even number";
+}else{
+    echo "$number is a odd number";
+}
+echo PHP_EOL;
+$alaom = 200;
+$rohim = 1000;
+if($alaom>=$rohim){
+    echo "alaom  has same or more amaount of money than rohim";
+}elseif($alaom>$rohim){
+    echo "alaom has more money than rohim";
+}elseif($alaom<$rohim){
+    echo "alaom has less money than rohim";
+}elseif($alaom==$rohim){
+    echo "alaom and rohim has same amaount of money";
+}else{
+    echo "i don't like it";
+}
+echo PHP_EOL;
+$a = 100;
+$r = 200;
+if($a==$r){
+    echo "it is false";
+}elseif($a!=$r){
+    echo "it is true";
+}
+echo PHP_EOL;
+$age = 14;
+if($age>=13 && $age<=19){
+    echo "he is a tinager";
+}else{
+    echo "he not a tenager";
+}
+echo PHP_EOL;
+$num1 = 1000;
+$num2 = 200;
+if($num1==$num2 || $num1>$num2){
+    echo "this is right";
+}else{
+    echo "this is not right";
+}
+echo PHP_EOL;
+$food = "tuna";
+if("tuna"==$food || "salmon"== $food){
+    echo "it has vitamin d";
+}elseif("apple"==$food){
+    echo "apple dosen't contain a vitamin d";
+}else{
+    echo "we don't know about this food";
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?php
+// ekhana variaable man change hoi ata dakhano hoyacha
+$task = "read";
+echo $task;
+echo "\n";
+$task = "write";
+echo $task;
+echo "\n";
+// nicha constant man change hoi na seta dakhano hoyacha
+define('PI',3.1416);
+echo constant('PI');
+echo "\n";
+echo "value of PI = ".PI;
+echo "\n";
+define('PI',1234);
+echo "value of PI = ".PI; // akane constant er man change kora jai na
+// comment korar niom
+// single line comment
+/*
+first line
+second line
+third line
+*/

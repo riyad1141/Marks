@@ -1,0 +1,43 @@
+<?php
+/*
+various types of oparetors ar agula Arithmatic oparetor
++ addition
+- substaction
+* multiplication
+/ divition
+% modulas
+jakono number shortcut a +, _, *, / korar niom and agula assignment oparetor
++=
+-=
+*=
+/=
+%=
+*/
+$number = 12;
+$number2 = $number + 20;
+echo $number2, "\n", $number;
+echo PHP_EOL;
+$num1 = 50;
+$num1 += 30;
+echo $num1;
+echo PHP_EOL;
+$num2 = (12-2)*5;
+echo $num2;
+echo PHP_EOL;
+$num3 = 15 % 4;
+echo $num3;
+echo PHP_EOL;
+$num4 = (22-2)/(7-2);
+echo $num4;
+echo PHP_EOL;
+// ara vabe ai oparetor gula ka likha jai 
+$country = 12;
+$country++;
+echo "$country\n"; // ata holo $country = $country + 1
+$country2 = 12;
+$country--;
+echo "$country2\n"; // ata holo $country2 = $country2 -1
+$country3 = 12;
+$country4 = 6;
+$country5 = $country3 / $country4;
+echo $country5;

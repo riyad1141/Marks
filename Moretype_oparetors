@@ -1,0 +1,14 @@
+<?php
+$a = 10;
+$x = $y = $a;
+echo $x, "\n", $y;
+// nicha 2 niom a kora acha
+echo PHP_EOL;
+$n = 11;
+$m = $n++;
+echo $m, "\n", $n;
+echo PHP_EOL;
+$n = 11;
+$m = ++$n;
+echo $m, "\n", $n;
+echo PHP_EOL;

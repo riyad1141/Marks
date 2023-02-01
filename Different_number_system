@@ -1,0 +1,10 @@
+<?php
+$n =1234; // decimal number
+$o = 012; // octal number
+$h = 0x2B;  // hexadecimal number
+printf("the decimal number of %d and %d and %d\n",$n,$o,$h);
+printf("the binary number is %d=%b \n",1212,1212);
+printf("the octal number is %d=%o \n",1212,1212);
+printf("the hexadecimal number is %d=%x \n",1212,1212);
+printf("the octal number is %d=%o \n",65536,65536);
+printf("the number octal %o=%d", 0200000,0200000);

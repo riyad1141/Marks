@@ -1,0 +1,7 @@
+<?php
+// $f = false || true;
+// $e = false or true;
+$f = true && false;
+$e = true and false;
+
+var_dump($f,$e);

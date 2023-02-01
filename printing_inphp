@@ -1,0 +1,48 @@
+<?php
+// php first print korar niom
+echo "hello world";
+echo "\n";
+echo 123;
+echo "\n";
+// jekono variaable er information janar niom nicha daoya holo
+$name = "earth";
+var_dump($name); // ata string data type
+echo PHP_EOL;
+$name2 = 123;
+var_dump($name2); // ata intezer data type
+echo PHP_EOL;
+$name3 = 12.345;
+var_dump($name3); // ata floating data type
+echo PHP_EOL;
+$name4 = true;
+var_dump($name4); // ata boolian data type
+echo PHP_EOL;
+/*
+agula php er data type
+inttezer
+float
+string
+null
+boolean
+array 
+object
+resource
+*/
+// php ta print korar aro niom nicha daoya  holo
+$num1 = "jupiter";
+echo "the biggest planet is {$num1}\n";
+printf("the biggest planet is %s",$num1);
+echo PHP_EOL;
+$fname = "Hasin";
+$lname = "Hyder";
+printf("his %s name is %s %s ","full",$fname,$lname);
+echo PHP_EOL;
+echo "his nam
+is {$fname} and
+his last name
+is {$lname}";
+echo PHP_EOL;
+$planet1 = "mercury";
+$planet2 = "jupiter";
+echo "the smallest planet is {$planet1} and the biggest planet is {$planet2}\n";
+printf("the smallest planet is %s and the biggest planet is %s\n",strtoupper($planet1),strrev($planet2));

@@ -1,0 +1,30 @@
+<?php
+$number = 12;
+/*if($number % 2 == 0){
+    echo "even number";
+    echo PHP_EOL;
+    echo "some ext";
+}else{
+    echo "odd number";
+    echo PHP_EOL;
+    echo "some text++";
+}
+echo PHP_EOL;
+*/
+if($number % 2 == 0):
+    echo "even number";
+    echo PHP_EOL;
+    echo "some ext";
+else:
+    echo "odd number";
+    echo PHP_EOL;
+    echo "some text++";
+endif;
+echo PHP_EOL;
+switch($number % 2 == 0):
+    case 0:
+        echo "even number";
+        break;
+    default:
+        echo "odd number";
+endswitch;

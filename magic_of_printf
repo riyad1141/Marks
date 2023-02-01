@@ -1,0 +1,18 @@
+<?php
+$fname = "Hasin";
+$lname = "hyder";
+$mname = "nothing";
+printf("his name is %s %s \n",$fname,$lname); // ata akta niom
+printf('his %3$s name is %2$s %1$s',$fname,$lname,$mname); // ata holo arakta niom
+echo PHP_EOL;
+printf("the number of equivalent %d is %b \n",12,12); // akta niom
+printf('the number of equivalent %1$d is %1$b',12); // arakta niom
+echo PHP_EOL;
+$number = 12.232546;
+printf("%.5f \n", $number); // akta niom
+printf("%f", $number); // arakta niom
+echo PHP_EOL;
+$n = 123;
+printf("%05d \n",$n); // ati akta niom
+$m = 12.454678;
+printf("%09.4f \n",$m);

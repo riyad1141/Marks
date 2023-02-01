@@ -1,0 +1,23 @@
+<?php
+// ternary oparetor
+
+$number = 10;
+if($number==12){
+    echo "it is twelve";
+}elseif($number==10){
+    echo "it is Ten";
+}else{
+    echo "it is a number";
+}
+echo PHP_EOL;
+$numberinworld = ($number==12) ? "it is twelve" : (($number==10) ? "it is Ten" : "it is a number"); // ternary oparetor
+echo $numberinworld;
+echo PHP_EOL;
+if($number % 2 == 0){
+    echo 'it is an even number';
+}else{
+    echo "it is a odd number";
+}
+echo PHP_EOL;
+$result = $number % 2 == 0 ? "it is an even number" : "it is a odd number"; // ternary oparetor
+echo $result;

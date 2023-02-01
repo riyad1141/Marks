@@ -1,0 +1,24 @@
+<?php
+$mark = 15;
+
+switch($mark){
+    case($mark>80):
+        echo "he got A+";
+        break;
+    case($mark>70);
+    echo "he got A";
+        break;
+    case($mark>60):
+        echo "he got A-";
+        break;
+    case($mark>50):
+        echo "he got b";
+    case($mark>40):
+        echo "he got c";
+         break;
+    case($mark>33):
+        echo "he got D";
+        break;
+    default:
+    echo "he is failed";
+}
